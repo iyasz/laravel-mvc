@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\aboutController;
 use App\Http\Controllers\adminController;
 use App\Http\Controllers\contactController;
 use Illuminate\Support\Facades\Route;
@@ -22,3 +23,5 @@ Route::get('/', function () {
 Route::get('/services', [adminController::class, 'index']);
 
 Route::get('/contact', [contactController::class, 'index']);
+
+Route::get('/about', [aboutController::class, 'index']);
