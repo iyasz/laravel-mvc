@@ -3,6 +3,7 @@
 use App\Http\Controllers\aboutController;
 use App\Http\Controllers\adminController;
 use App\Http\Controllers\contactController;
+use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
 /*
